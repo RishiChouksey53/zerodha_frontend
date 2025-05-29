@@ -1,0 +1,43 @@
+.zerodha ul {
+  color: #242424;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+
+.zerodha ul li {
+  padding: 0.75rem;
+}
+
+.zerodha ul li a i {
+  font-size: 1.5rem;
+  color: #666;
+}
+.zerodha p {
+  color: #666;
+}
+
+.Links {
+  h5 {
+    color: #242424;
+    padding: 0.5rem 0 1rem;
+  }
+  ul {
+    color: #666;
+    list-style-type: none;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 0.35rem;
+  }
+}
+
+.Content {
+  max-width: 68.75rem;
+  margin: auto;
+  font-size: 0.75rem;
+  color: #9b9b9b;
+}
+.Bottom_Links a {
+  color: #9b9b9b;
+}

@@ -1,0 +1,47 @@
+/* Logo styling */
+.logo-img {
+  max-width: 130px;
+  height: auto;
+}
+
+/* Custom nav links */
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1rem;
+}
+
+.nav-links li {
+  transition: transform 0.2s ease;
+  width: 100%;
+  text-align: center;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  display: block;
+  width: 100%;
+}
+
+.nav-links li a:hover {
+  color: #646cff;
+  transform: scale(1.05);
+}
+
+/* On large screens, switch to horizontal layout */
+@media (min-width: 992px) {
+  .nav-links {
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0;
+  }
+
+  .nav-links li {
+    width: auto;
+  }
+}

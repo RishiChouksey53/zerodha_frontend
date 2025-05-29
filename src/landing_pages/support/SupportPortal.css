@@ -1,0 +1,23 @@
+.Support {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
+    padding-inline: 2rem;
+    background-color: #387ed1;
+    color: white;
+    a {
+        color: white;
+        text-decoration: none;
+        border-bottom: 2px solid white;
+    }
+}
+input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    color: grey;
+}
+
+i {
+    color: grey; 
+    height: 100%;
+}

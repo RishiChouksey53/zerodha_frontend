@@ -1,0 +1,27 @@
+.pricing_div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+.pricing_box {
+  display: flex;
+  align-items: center;
+}
+
+.pricing_box p {
+  font-size: 0.625rem;
+  color: #666666;
+}
+
+.pricing_box img {
+  height: 5.313rem;
+}
+
+.left {
+  h2 {
+    margin: 0 0 1.25rem;
+  }
+  p {
+    margin: 1rem 0;
+  }
+}
